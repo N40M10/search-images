@@ -1,0 +1,11 @@
+#app {
+  width: 100vw;
+  height: fit-content;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}

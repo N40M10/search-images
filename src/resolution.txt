@@ -1,0 +1,3 @@
+small < 720w
+medium < 1200w
+large > 1200

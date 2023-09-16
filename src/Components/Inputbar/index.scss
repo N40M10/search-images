@@ -1,0 +1,23 @@
+.inputbar {
+  width: 100%;
+  height: fit-content;
+
+  margin: 20px 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  input {
+    width: 100%;
+    height: fit-content;
+
+    padding: 12px;
+
+    border-radius: 8px;
+    border: 1px solid black;
+
+    color: #000;
+    font-size: 1.6rem;
+    border: 1px solid #000;
+  }
+}

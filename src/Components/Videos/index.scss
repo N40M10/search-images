@@ -1,0 +1,48 @@
+.main__videos {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-content: center;
+
+  section {
+    width: 100%;
+    height: auto;
+
+    margin: 20px 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 16px;
+
+    video {
+      width: 100%;
+      height: auto;
+
+      display: grid;
+      place-content: center;
+      place-items: center;
+
+      background: lightgrey;
+
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .main__scroll--end {
+    width: 100%;
+    height: fit-content;
+
+    margin: 60px 0 0 0;
+
+    text-align: center;
+    line-height: auto;
+
+    color: #000;
+    font-size: 2.6rem;
+  }
+}
